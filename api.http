@@ -1,0 +1,13 @@
+###
+GET http://localhost:8080/ HTTP/1.1
+Host: localhost:8080
+API_KEY: asd123456
+
+###
+GET http://localhost:8080/ HTTP/1.1
+Host: localhost:8080
+API_KEY: asdqwe123
+
+###
+GET http://localhost:8080/ HTTP/1.1
+Host: localhost:8080
