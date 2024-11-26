@@ -38,3 +38,17 @@ API_KEY: <TOKEN>
 - Testes automatizados demonstrando a eficácia e a robustez do rate limiter.
 - Utilize docker/docker-compose para que possamos realizar os testes de sua aplicação.
 - O servidor web deve responder na porta 8080.
+
+## Instruções de uso
+
+### Execução
+
+```bash
+docker-compose up -d --build
+````
+
+### Execução de testes
+
+```bash
+go test ./... -v
+````
